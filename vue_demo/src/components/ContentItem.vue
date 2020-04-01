@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="con">
     <div class="con-item">
       <el-card class="box-card">
         <div slot="header" class="clearfix">
@@ -16,14 +16,14 @@
 
 <script>
 export default {
-  name: 'Main',
+  name: 'con',
   props: ['title']
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-  .hello{
+  .con{
     padding-bottom: 35px;
     .con-item{
       margin-bottom: 35px;
@@ -50,6 +50,9 @@ export default {
 
     .box-card {
       width: 100%;
+    }
+    .el-card{
+      background: transparent;
     }
   }
   
