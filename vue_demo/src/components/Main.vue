@@ -1,11 +1,6 @@
 <template>
   <div class="hello">
     <Taglist />
-    <el-container>
-      <div class="wrap">
-        
-      </div>
-    </el-container>
     <router-view/>
   </div>
 </template>

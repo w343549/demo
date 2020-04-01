@@ -20,3 +20,10 @@ a{
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
+.el-carousel__arrow--left {
+    left: 100px;
+  }
+  .el-carousel__arrow--right {
+    right: 100px;
+  }

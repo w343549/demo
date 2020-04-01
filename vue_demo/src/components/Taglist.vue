@@ -2,7 +2,7 @@
   <div class="hello">
     <el-container>
       <div class="wrap">
-        <ul class="tag-item" >
+        <ul class="tag-item" v-if="index==1">
           <li>推荐</li>
           <li>排行榜</li>
           <li>歌单</li>
@@ -32,7 +32,7 @@ export default {
     z-index: 90;
     box-sizing: border-box;
     background-color: #C20C0C;
-    border-bottom: 1px solid #a40011;
+    border-bottom: 2px solid #a40011;
     .tag-item{
       width:100%;
       height: 35px;
